@@ -9,19 +9,22 @@ This image is intended to be used as a base image for your Ionic projects. It co
 
 To create a new project, run:
 ..  code-block:: console
+
     docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ionic start myApp tabs
 
 To run your app, run:
 ..  code-block:: console
+
     docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ionic serve
 
 To build your app, run:
 ..  code-block:: console
+
     docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ionic build
 
-..  code-block:: console
 To emulate your app, run:
-..  code-block:: console   
+..  code-block:: console  
+
     docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ionic emulate
 
 
